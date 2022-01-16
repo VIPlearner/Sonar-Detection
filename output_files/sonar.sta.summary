@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'echo'
+Slack : -89.473
+TNS   : -2817.545
+
+Type  : Slow 1200mV 85C Model Setup 'microseconds'
+Slack : -7.948
+TNS   : -299.915
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -6.554
+TNS   : -85.929
+
+Type  : Slow 1200mV 85C Model Setup 'ultrasonic:H0|microseconds'
+Slack : -4.487
+TNS   : -279.025
+
+Type  : Slow 1200mV 85C Model Setup 'seconds'
+Slack : -1.658
+TNS   : -11.110
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'microseconds'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ultrasonic:H0|microseconds'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'seconds'
+Slack : 0.654
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'echo'
+Slack : 0.967
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -56.314
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'echo'
+Slack : -3.000
+TNS   : -47.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ultrasonic:H0|microseconds'
+Slack : -1.403
+TNS   : -116.449
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'microseconds'
+Slack : -1.403
+TNS   : -105.225
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'seconds'
+Slack : -1.403
+TNS   : -12.627
+
+Type  : Slow 1200mV 0C Model Setup 'echo'
+Slack : -81.334
+TNS   : -2561.885
+
+Type  : Slow 1200mV 0C Model Setup 'microseconds'
+Slack : -7.246
+TNS   : -266.655
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -5.934
+TNS   : -74.981
+
+Type  : Slow 1200mV 0C Model Setup 'ultrasonic:H0|microseconds'
+Slack : -4.034
+TNS   : -250.843
+
+Type  : Slow 1200mV 0C Model Setup 'seconds'
+Slack : -1.411
+TNS   : -9.264
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ultrasonic:H0|microseconds'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'microseconds'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'seconds'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'echo'
+Slack : 0.898
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -56.314
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'echo'
+Slack : -3.000
+TNS   : -47.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ultrasonic:H0|microseconds'
+Slack : -1.403
+TNS   : -116.449
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'microseconds'
+Slack : -1.403
+TNS   : -105.225
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'seconds'
+Slack : -1.403
+TNS   : -12.627
+
+Type  : Fast 1200mV 0C Model Setup 'echo'
+Slack : -35.912
+TNS   : -1132.241
+
+Type  : Fast 1200mV 0C Model Setup 'microseconds'
+Slack : -3.360
+TNS   : -87.819
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.258
+TNS   : -16.347
+
+Type  : Fast 1200mV 0C Model Setup 'ultrasonic:H0|microseconds'
+Slack : -1.414
+TNS   : -76.623
+
+Type  : Fast 1200mV 0C Model Setup 'seconds'
+Slack : -0.051
+TNS   : -0.067
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'microseconds'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ultrasonic:H0|microseconds'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'seconds'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'echo'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'echo'
+Slack : -3.000
+TNS   : -47.880
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -47.408
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ultrasonic:H0|microseconds'
+Slack : -1.000
+TNS   : -83.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'microseconds'
+Slack : -1.000
+TNS   : -75.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'seconds'
+Slack : -1.000
+TNS   : -9.000
+
+------------------------------------------------------------

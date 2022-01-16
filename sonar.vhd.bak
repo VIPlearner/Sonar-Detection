@@ -1,0 +1,28 @@
+library IEEE;
+	use IEEE.STD_LOGIC_1164.ALL;
+   use IEEE.NUMERIC_STD.ALL;
+    
+entity sonar is
+	Port ( clk : in STD_LOGIC;
+          trig : out STD_LOGIC;--trigger
+          echo : in STD_LOGIC;
+          HEX1 : out std_logic_vector(6 downto 0); --most significant bit of distance in binary form
+          HEX0 : out std_logic_vector(6 downto 0));
+   end sonar;
+architecture behaviour of sonar is 
+signal cm1: std_logic_vector(3 downto 0);
+signal cm0: std_logic_vector(3 downto 0);
+	component ultrasonic 
+        Port ( clk : in STD_LOGIC;
+               trig : out STD_LOGIC;--trigger
+               echo : in STD_LOGIC;
+               cm1 : out unsigned(3 downto 0); --most significant bit of distance in binary form
+               cm0 : out unsigned(3 downto 0));
+    end component;
+	begin
+			H0: ultrasonic PORT MAP (Clk, trig, echo, cm1, cm0);
+			
+			MSD: seg_7 PORT MAP (cm1(3 downto 0), HEX1(6 downto 0));
+			LSD: seg_7 PORT MAP (cm0(3 downto 0), HEX0(6 downto 0));
+     
+	end ultrasonic_arch;

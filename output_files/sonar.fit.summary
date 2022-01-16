@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Jan 16 21:58:08 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : sonar
+Top-level Entity Name : sonar
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 1,161 / 49,760 ( 2 % )
+    Total combinational functions : 1,152 / 49,760 ( 2 % )
+    Dedicated logic registers : 237 / 49,760 ( < 1 % )
+Total registers : 237
+Total pins : 28 / 360 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

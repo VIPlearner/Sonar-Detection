@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity servo is
+	port(
+	Clk: in std_logic;
+	pulse: out std_logic;
+	);
+end servo;
+
+architecture rtl of servo is
+
+signal microseconds: std_logic;
+
+begin
+	
+	process(Clk)
+	variable count0: integer range 0 to 7;
+	begin
+		if rising_edge(Clk) then
+			if count0 = 5 then
+				count0 := 0;
+			else
+				count0 := count0 + 1;
+			end if;
+			if count0 = 0 then
+				microseconds <= not microseconds;
+			end if;
+		end if;
+	end process;
+	
+	process(microseconds)
+	variable count1 : integer;
+	variable pulselength: integer;
+	begin
+		if rising_edge(microseconds) then
+			if count1 = 0 then
+				pulse <= '1';
+			elsif count1 = pulselength then
+				pulse <= '0';
+			end if;
+			
+			if count1 = 2000 then
+				count1 := 0;
+				pulselength <= pulselength + 1;
+				if pulselength = 2000 then
+					pulselength <= 0;
+				end if;
+				
+			else
+				count1 := count1 + 1;
+			end if;
+		end if;
+	end process;
+	
+end rtl;
